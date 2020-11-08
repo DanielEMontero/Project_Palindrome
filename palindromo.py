@@ -1,10 +1,10 @@
 ##################################################################
 ##################################################################
 
-##################### PROGRAMA PALINDROMO ########################
+##################### PALINDROME PROGRAM ########################
 
-# Descripción: Programa que te permite validar si la palabra ingresada
-# o no un palíndromo.
+# Description: This program let you know if the insert word is or not is
+# a palindrome. 
 
 ###################################################################
 
@@ -21,11 +21,11 @@ def palindromo(palabra):
 
 
 def run():
-    palabra = input('Por favor ingrese una palabra: ')
+    palabra = input('Please insert a word: ')
     if palindromo(palabra) == True:
-        print('Es un Palíndromo')
+        print('Is a Palindrome')
     else:
-        print('No es un Palíndromo')
+        print('Is not a Palindrome')
 
 
 if __name__ == '__main__':
