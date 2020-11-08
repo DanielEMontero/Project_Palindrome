@@ -11,14 +11,22 @@
 # Author: DANIEL EDUARDO MONTERO RAMÍREZ 
 
 ###################################################################
+def palindromo(palabra):
+        palabra = palabra.lower()
+        palabra = palabra.replace(' ','')
+        if palabra[::-1] == palabra:
+            return True
+        else:
+            return False
 
 
-palabra = input("Por favor ingrese una palabra: ")
+def run():
+    palabra = input('Por favor ingrese una palabra: ')
+    if palindromo(palabra) == True:
+        print('Es un Palíndromo')
+    else:
+        print('No es un Palíndromo')
 
-palabra = palabra.lower()
-palabra = palabra.replace(" ","")
 
-if palabra[::-1] == palabra[::1]:
-    print("Es un Palíndromo")
-else:
-    print("No es un Palíndromo")
+if __name__ == '__main__':
+    run()
