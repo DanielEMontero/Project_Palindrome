@@ -1,5 +1,6 @@
 palabra = input("Por favor ingrese una palabra: ")
 
+palabra = palabra.lower()
 palabra = palabra.replace(" ","")
 
 if palabra[::-1] == palabra[::1]:
