@@ -1,3 +1,18 @@
+##################################################################
+##################################################################
+
+##################### PROGRAMA PALINDROMO ########################
+
+# Descripción: Programa que te permite validar si la palabra ingresada
+# o no un palíndromo.
+
+###################################################################
+
+# Author: DANIEL EDUARDO MONTERO RAMÍREZ 
+
+###################################################################
+
+
 palabra = input("Por favor ingrese una palabra: ")
 
 palabra = palabra.lower()
